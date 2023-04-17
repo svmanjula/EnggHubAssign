@@ -1,49 +1,63 @@
+body {
 
-body{
-    margin: 0;
-    padding: 0;
     color: white;
     background-color: rgb(200, 230, 239);
 }
-html{
+
+html,
+body,
+ul,
+p,
+li {
     font-size: 17px;
+    margin: 0;
+    padding: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
-    height: 4rem;
     background-color: rgb(0, 44, 44);
     align-items: center;
     flex-wrap: wrap;
+    gap: 1rem;
     width: 100vw;
-    gap: 7rem;
+    padding: 1rem 0 1rem 0;
 }
 
 nav ul {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
 
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
+
+
 }
 
-img{
-    height: 45rem;
-    width: 35rem;
+img {
+    height: 30rem;
+    width: 20rem;
     object-fit: contain;
     position: relative;
+
 }
-main{
+
+main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 
 }
-#btn{
+
+#btn {
     position: absolute;
     z-index: 1;
-    top:30rem;
+    top: 20rem;
     text-align: center;
     border-radius: 2rem;
     padding: 1rem;
@@ -52,21 +66,23 @@ main{
     color: white;
 }
 
-footer{
+footer {
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
     background-color: rgb(0, 44, 44);
     color: white;
-    padding: 3rem;
+    padding: 1rem;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+   
+   
 
 }
 
-footer div{
-    text-align: center;
-}
 
-footer ul li{
+
+footer ul li {
     list-style: none;
 
 }
